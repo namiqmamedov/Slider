@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.next{
+    position: absolute;
+    top: 30%;
+    right: 40px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.prev{
+    position: absolute;
+    top: 30%;
+    left: 30px;
+    transform: translateY(-50%);
+}
+#slider{
+    position: relative;
+}
+.next i{
+    background-color: white;
+    padding: 4px 16px;
+}
+.prev i{
+    background-color: white;
+    padding: 4px 16px;
+}
+img{
+    width: 1482px; 
+    height: 500px;
+}
